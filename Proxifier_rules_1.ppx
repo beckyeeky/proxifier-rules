@@ -81,6 +81,11 @@
 		</Rule>
 		<Rule enabled="true">
 			<Action type="Proxy">100</Action>
+			<Applications>telegram.exe; unins000.exe; updater.exe</Applications>
+			<Name>电报</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
 			<Applications>gameoverlayui.exe; steam.exe; steamerrorreporter.exe; steamerrorreporter64.exe; streaming_client.exe; uninstall.exe; writeminidump.exe</Applications>
 			<Name>Steam</Name>
 		</Rule>
