@@ -37,6 +37,10 @@
 			<Action type="Direct" />
 			<Applications>wv2ray.exe;xray.exe;clash.exe; sstap.exe; tap.exe; enableloopback.exe; v2ctl.exe; v2ray.exe; v2rayn.exe; v2rayupgrade.exe; wv2ray.exe; xray.exe; v2ray_privoxy.exe; sysproxy.exe</Applications>
 			<Name>wv2ray.exe [auto-created]</Name>
+		</Rule><Rule enabled="true">
+			<Action type="Block" />
+			<Applications>lghub.exe; lghub_agent.exe; lghub_uninstaller.exe; logi_crashpad_handler.exe; lghub_updater.exe</Applications>
+			<Name>罗技</Name>
 		</Rule>
 		<Rule enabled="true">
 			<Action type="Proxy">100</Action>
